@@ -1,6 +1,6 @@
 {
   "name": "gulp-closure-compiler",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Gulp plugin for Google Closure Compiler",
   "license": "MIT",
   "repository": {
@@ -10,9 +10,6 @@
   "author": {
     "name": "Daniel Steigerwald",
     "url": "https://github.com/steida"
-  },
-  "engines": {
-    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "mocha"
@@ -29,6 +26,7 @@
     "minify"
   ],
   "dependencies": {
+    "google-closure-compiler": "^20151015.0.0",
     "glob": "^5.0.14",
     "graceful-fs": "^4.1.2",
     "gulp-util": "^3.0.0",
